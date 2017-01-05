@@ -16,22 +16,40 @@
     -La bandera --oneline muestra cada entrada en una sola linea
     -tambien es posible ver la historiqa de un solo archivo, pasando como           argumento el nombre de éste.
     
-### $git log [--oneline <archivo>]
-    Muestra el archivo completo de commits del repo, o de un archivo si es         especifico
-
-#Acordeon Git
-### $git init
-    -inicializa un repositorio
-### $git status
-    -Muestra el estado actual de nuestro repositorio, permite saber si el repositorio contiene archivos de seguimineto, o si estan listos para estar registrados.
 #### $.gitignore
     
-    Este archivo nos permite ignorar archivos o directorios los cuales no            queramos que entren en el seguimiento de nuestro repositorio.
+    - Este archivo nos permite ignorar archivos o directorios los cuales no            queramos que entren en el seguimiento de nuestro repositorio.
         -nombres de archivos o carpetas
         -wildcards*
-#### $.gitignore
-    Ignorar archivos o directorios los cuales no 
+#### $git checkout
 
+    - Este comando nos permite movernos entre commits o incluso ramas de nuestro repositorio
+
+lleva como argumento el  id del commit o parte de.
+#### $git revert
+
+    - este comando nos permite revertir un cambio ya registrado, creando un nuevo commit
+    lleva como argumento el id del commit a revertir
+### $git reset
+
+    Regresa al único estado guardado, borrando permanentemente cualquier cambio en el área de pruebas.
+    
+    -lleva la bandera --hard
+### $git clean
+    Borra permanentemente los archivos  NO seguidos
+    -lleva la bandera -f
+ 
+Branch
+
+Una rama branch es, en pocas palabras, una linea independiente de trabajo, la cual no afecta a nuestra rama principal (master), sin embargo, tiene la capacidad
+
+###$git branch
+    Lista las ramas existentes en el repositorio
+    - si se le agrega [<nombre>] de rama como argumento, se creará una rama con ese nombre
+    
+#### $git merge
+    Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde     nos encontramos actualmente.
+    -recibe como parámetro la rama objetivo
     
     
     
