@@ -79,6 +79,11 @@ del repositorio remoto
 este comando nos permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto
 -recibe como argumentos el nombre del remoto y del barnch que queremos hacer pull
 
+### $git clone <nombre repositorio a clonar>
+
+### Fork 
+    - Es parecido a un clon
+
     
     
     
