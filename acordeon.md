@@ -53,7 +53,32 @@ Una rama branch es, en pocas palabras, una linea independiente de trabajo, la cu
     
 ### Conflictos de merging
     A veces si se esra trtabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos, por lo que es necesario corregirlos.
-    
+
+### ¿QUE ES UN REPOSITORIO REMOTO???
+
+Es aquel que se encuentra alojado en un servidor externo a nuestro computador.
+un repositorio remoto puede ser accedido por uno o varios colaboradores. El repositorio puede ser centralizado o distribuido
+
+### $git remote
+este comando nos permite hacer diversas operaciones sobre repositorios remotos
+-add: agrega un nuevo remoto
+-remove: elimina un remoto
+
+ $git remote add <nombre> <url>
+ $git remote remove <nombre>
+ 
+ *Por lo general el nombre del repositorio es origin
+
+### $git pull
+Este comabndo nos perm,ite recibir el ultimo estado registrado
+del repositorio remoto
+-recibe como argumentos el nombre del remoto y del branch al que queremos hacer pull
+
+### $git push
+
+este comando nos permite mandar los cambios registrados de nuestro repositorio local a un repositorio remoto
+-recibe como argumentos el nombre del remoto y del barnch que queremos hacer pull
+
     
     
     
