@@ -84,6 +84,15 @@ este comando nos permite mandar los cambios registrados de nuestro repositorio l
 ### Fork 
     - Es parecido a un clon
 
+### Pull Request
+-Este método permite a los equipos de desarrollo controlar que cambios se realizan en un repositorios.
+-El propietario del repositorio recibe peticiones de cambio,las cuales deben ser aprobadas por el.
+-Tipicamente un colaborador hace fork del proyecto maestro, y al realizar sus cambios realiza el pull request.
+-También es posible hacer pull request entre ramas.
+
+### Issues
+
+GitHub ofrece la acapacidad de crerar entradas en nuestro repositorio, las cuales pueden ser usadas para especificar varias cosas, desde mejoras al sistema, problemas a resolver
     
     
     
