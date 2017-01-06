@@ -43,7 +43,7 @@ Branch
 
 Una rama branch es, en pocas palabras, una linea independiente de trabajo, la cual no afecta a nuestra rama principal (master), sin embargo, tiene la capacidad
 
-###$git branch
+### $git branch
     Lista las ramas existentes en el repositorio
     - si se le agrega [<nombre>] de rama como argumento, se creará una rama con ese nombre
     
@@ -51,8 +51,8 @@ Una rama branch es, en pocas palabras, una linea independiente de trabajo, la cu
     Este comando fusiona dos ramas, fusiona una rama objetivo con la rama donde     nos encontramos actualmente.
     -recibe como parámetro la rama objetivo
     
-    
-    
+### Conflictos de merging
+    A veces si se esra trtabajando en 2 ramas al mismo tiempo, modificando un mismo archivo, se pueden generar conflictos, por lo que es necesario corregirlos.
     
     
     
